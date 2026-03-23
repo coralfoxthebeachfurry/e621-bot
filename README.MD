@@ -39,13 +39,13 @@ A Discord bot that fetches and posts images from e621.net. Supports scheduled po
    
 ### Commands
 
-**!e621 [tags]** - search for a random post with given tags. If no tags were given,
+- **!e621 [tags]** - search for a random post with given tags. If no tags were given,
 uses the default TAGS from **.env**.
 Example:
-   ```text
-   !e621 wolf rating:s
 
-*Note:* The command is restricted to NSFW only channels.
+!e621 wolf rating:s
+
+**Note:** The command is restricted to NSFW only channels.
 
 ### Database
 
