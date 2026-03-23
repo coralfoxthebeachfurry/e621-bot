@@ -41,9 +41,10 @@ A Discord bot that fetches and posts images from e621.net. Supports scheduled po
 
 - **!e621 [tags]** - search for a random post with given tags. If no tags were given,
 uses the default TAGS from **.env**.
+
 Example:
 
-!e621 wolf rating:s
+**!e621 wolf rating:s**
 
 **Note:** The command is restricted to NSFW only channels.
 
@@ -58,9 +59,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Acknowledgements
 
-**e621.net** for the API
-**discord.py** library
-**All contributors and testers**
+- **e621.net** for the API
+- **discord.py** library
+- **All contributors and testers**
 
 **NOTE:** This bot should only be used in NSFW channels due to Discord guidelines
 and E621 content policies.
