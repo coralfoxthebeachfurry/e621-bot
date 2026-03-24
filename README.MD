@@ -37,7 +37,7 @@ A Discord bot that fetches and posts images from e621.net. Supports scheduled po
    ```bash
    python main.py
    
-### Commands
+## Commands
 
 - **!e621 [tags]** - search for a random post with given tags. If no tags were given,
 uses the default TAGS from **.env**.
@@ -48,16 +48,16 @@ Example:
 
 **Note:** The command is restricted to NSFW only channels.
 
-### Database
+## Database
 
 The bot uses SQLite to store already posted images IDs to prevent the same
 post being shown twice. You can delete **posted.db** to reset it's history.
 
-### License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Acknowledgements
+## Acknowledgements
 
 - **e621.net** for the API
 - **discord.py** library
