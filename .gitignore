@@ -1,2 +1,4 @@
 .env
 posted.db
+debug.py
+.env.debug
